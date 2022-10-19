@@ -14,6 +14,5 @@ public class DragAndDropTests {
 
         $$("#content .column header").get(0).shouldBe(text("B"));
         $$("#content .column header").get(1).shouldBe(text("A"));
-        sleep(2000);
     }
 }
